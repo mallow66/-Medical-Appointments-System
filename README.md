@@ -14,23 +14,24 @@ Here is a sample story board of the main purpose of this system :
 ![](Images/storyBoard.png)
 
 
-| Problem scenarios        | Current alternative           | Value proposition  |
-| ------------- |:-------------:| -----:|
-| The secretary must remind
+##  Problem Scenarions, Alternativesn and Value Propositions: 
+
+The secretary must remind
 every patient one day before
 their appointments, which is
-very difficult for her      | she got to search the phone
+very difficult for her she got to search the phone
 number of the patient, call it
 and remind it.
+
 In the case where the patient
 didn't respond, she got to recall
-it later | The patients receive
+it later. The patients receive
 notifications on their phone
 automatically.
+
+
 The patient can manage the
 settings of how the
 notifications would be
-received... |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+received...
 
