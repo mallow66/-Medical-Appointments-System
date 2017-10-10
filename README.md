@@ -13,3 +13,10 @@ Here is a sample story board of the main purpose of this system :
 
 ![](Images/storyBoard.png)
 
+
+| Problem scenarios        | Current alternative           | Value proposition  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
