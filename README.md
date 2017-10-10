@@ -14,24 +14,79 @@ Here is a sample story board of the main purpose of this system :
 ![](Images/storyBoard.png)
 
 
-##  Problem Scenarions, Alternativesn and Value Propositions: 
+##  Problem Scenarios, Alternatives and Value Propositions: 
 
-The secretary must remind
+### Problem Scenarios : 
+
+- The secretary must remind
 every patient one day before
 their appointments, which is
 very difficult for her she got to search the phone
 number of the patient, call it
 and remind it.
 
+- The patient doesn't have an
+application or a platform to
+take an appointment easily,
+which is painful
+
+
+- Its hard to the patient to stay
+connected with his doctor (for
+example if he wants to ask
+some simple questions about
+the medication that he takes)
+
+
+
+### Current alternatives : 
+
+- she got to search the phone
+number of the patient, call it
+and remind it.
 In the case where the patient
 didn't respond, she got to recall
-it later. The patients receive
+it later.
+
+- the patient must visit the
+doctors office to fix the
+appointment(spend around 2
+hours), or call the secretary by
+phone (spend around 15 min)
+sometimes the phone’s office is
+busy, so the patient got to try
+many times
+
+- call the doctor's office, the
+secretary will respond and see
+if the doctor is available, if he is
+not, the patient must call later... 
+
+
+### Value Propositions : 
+- The patients receive
 notifications on their phone
 automatically.
-
-
 The patient can manage the
 settings of how the
 notifications would be
 received...
+
+- The patient can browse all the
+doctor's office timetable
+appointment, look to the
+appropriate time for him and fix
+the appointment without the
+need of any contact with the
+medical secretary
+
+- A new way to stay connected
+with the doctors :
+Patient can chat with their
+doctors on the
+platform/mobile solution
+
+
+
+
 
