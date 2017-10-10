@@ -1,4 +1,4 @@
-# -Medical-Appointments-System
+# Medical-Appointments-System
 
 
 ## Overview
@@ -8,3 +8,6 @@ mobile solution that manages and schedule the medical appointments to facilitate
 secretary and for the patients and ask for recommendations from the doctor using a chat platform;
 unlike the traditional way by using the phone to ask for an appointment or visit the place itself for
 seeing the doctor.
+
+![][images/storyBoard.png]
+
