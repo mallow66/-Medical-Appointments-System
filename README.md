@@ -16,7 +16,21 @@ Here is a sample story board of the main purpose of this system :
 
 | Problem scenarios        | Current alternative           | Value proposition  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| The secretary must remind
+every patient one day before
+their appointments, which is
+very difficult for her      | she got to search the phone
+number of the patient, call it
+and remind it.
+In the case where the patient
+didn't respond, she got to recall
+it later | The patients receive
+notifications on their phone
+automatically.
+The patient can manage the
+settings of how the
+notifications would be
+received... |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
