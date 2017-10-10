@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="'Doctor '+ ${doctor.lastName}"></title>
+</head>
+<body>
+<div>
+    <table>
+        <tr>
+            <td th:text="${doctor.username}"></td>
+            <td th:text="${doctor.firstName}"></td>
+            <td th:text="${doctor.lastName}"></td>
+        </tr>
+    </table>
+</div>
+
+
+<div>
+    <button>Add a new patient to this room</button>
+</div>
+
+<div>
+
+    <form th:action="@{/addPatientToDoctor}" method="post">
+        <table>
+            <tr>
+                <td> <select name="patient" >
+                    <th:block name="patients" id="patients " th:each="patient : ${patients}">
+                        <option th:value="${patient.username}"><th:block th:text="${patient.username}"></th:block></option>
+                    </th:block></select></td>
+                <td th:if="${error}" th:text="${error}"></td>
+            </tr>
+            <tr>
+                <td> <input name="username" type="hidden" th:value="${doctor.username}"/></td>
+                <td><input type="submit" value="Add the patient"/></td>
+            </tr>
+        </table>
+
+    </form>
+
+
+</div>
+</body>
+</html>

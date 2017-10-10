@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Add a new doctor</title>
+</head>
+<body>
+
+<div th:if="${success}" th:text="${success}"></div>
+
+<form th:action="@{/addDoctor}" method="post" th:object="${doctor}">
+
+    <table>
+        <tr>
+            <td>Username :</td>
+            <td><input type="text" th:field="*{username}"/></td>
+            <td th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Date Error</td>
+            <td th:if="${validUsername}" th:text="${validUsername}"></td>
+        </tr>
+
+        <tr>
+            <td>First Name :</td>
+            <td><input type="text" th:field="*{firstName}"/></td>
+            <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">Date Error</td>
+        </tr>
+
+        <tr>
+            <td>Last Name :</td>
+            <td><input type="text" th:field="*{lastName}"/></td>
+            <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Date Error</td>
+
+        </tr>
+
+        <tr>
+            <td>Date Of Birth :</td>
+            <td><input type="date" th:field="*{dateOfBirth}"/></td>
+            <td th:if="${#fields.hasErrors('dateOfBirth')}" th:errors="*{dateOfBirth}">Date Error</td>
+        </tr>
+
+        <tr>
+            <td>Email :</td>
+            <td><input type="text" th:field="*{email}"/></td>
+            <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Date Error</td>
+        </tr>
+
+        <tr>
+            <td>phone :</td>
+            <td><input type="text" th:field="*{phone}"/></td>
+            <td th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}">Date Error</td>
+        </tr>
+
+        <tr>
+            <td>Address :</td>
+            <td><input type="text" th:field="*{address}"/></td>
+            <td th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Date Error</td>
+        </tr>
+
+        <tr>
+            <td>Password :</td>
+            <td><input type="password" th:field="*{password}"/></td>
+            <td th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Date Error</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="Add the Doctor" />
+            </td>
+        </tr>
+
+    </table>
+
+
+
+
+</form>
+
+</body>
+</html>

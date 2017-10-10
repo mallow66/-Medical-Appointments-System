@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Doctors</title>
+</head>
+<body>
+
+    <table>
+        <th:block th:each="doctor : ${doctors}">
+           <tr>
+               <td th:text="${doctor.firstName}"> </td>
+               <td th:text="${doctor.lastName}"> </td>
+               <td><a th:href="@{/doctorDetails(username=${doctor.username})}"><button th:text="${doctor.firstName}+' '+${doctor.lastName}"></button></a></td>
+           </tr>
+        </th:block>
+    </table>
+
+
+
+</body>
+</html>

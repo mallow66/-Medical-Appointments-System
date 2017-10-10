@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"  lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+
+<div th:if="${error}" th:text="${error}"></div>
+<div th:if="${error == null}" > added succesfully </div>
+
+
+</body>
+</html>
